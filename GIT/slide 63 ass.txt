@@ -1,0 +1,6 @@
+1.mkdir asd
+ ls -1
+2.sort -r file2
+3.ls -l
+4.sort -r
+5.sort -S [-o sortedfile] file2
