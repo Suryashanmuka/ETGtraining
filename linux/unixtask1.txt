@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.mkdir Test
 
 2.cat employeelist
@@ -28,3 +29,35 @@
 10. who | wc -1
  
 
+=======
+1.mkdir Test
+
+2.cat employeelist
+  cat skillset
+
+3. mkdir test2
+
+  ln -s skillset file1
+  ln skillset file 2
+
+  rm skillset
+  cat file1 - error
+  cat file2 - will display if content present
+
+4. chmod g+rw file1
+
+5. chmod g+w file1
+
+6. chmod o+w file1
+
+7. chmod o+w file1
+
+8. chgrp user1 employeelist
+
+
+9. chown user10 file
+
+10. who | wc -1
+ 
+
+>>>>>>> 83eadaea1b87d44c2c094da619ec5b28ff7917aa
