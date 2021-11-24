@@ -1,0 +1,6 @@
+1.tr [:upper] [:lower] <file3
+2.tr -d/[0-9]* <file3
+3.tr -d " " <file3
+4.tr -s " " <file3
+5.tr -cd "[:alpha:]" <file3 | wc -m
+6.tr  "[a,e,i,o,u]" <file3

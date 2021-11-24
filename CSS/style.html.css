@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examples</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		ul{
+			color: Yellow;
+			font-family: fantasy;
+		}
+		ol{
+			color: blue;
+			font-family: verdana;
+		}
+		dt{
+			color: yellow;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h2>List of Planets</h2>
+	<ul>
+		<li>Mercury</li>
+		<li>Venus</li>
+		<li>Mars</li>
+		<li>earth</li>
+	</ul>
+	<hr>
+
+	<h2>List of cameras</h2>
+	<ol>
+		<li>Canon </li>
+		<li>Nikon</li>
+		<li>Sony</li>
+		<li>Panasonic</li>
+		<li>leica</li>
+		<li>GoPro</li>
+	</ol>
+	<hr>
+
+	<h2>List of cars and bikes</h2>
+	<dl>
+		<dt><b>Cars</b></dt>
+		<dd style="font-size: 20px; color: brown;"> A car (or automobile) is a wheeled motor vehicle used for transportation.<br>Most definitions of cars say that they run primarily on roads, seat one-to-eight people,<br>Have four wheels and mainly transport people rather than goods.<br>
+		Cars have controls for driving, parking, passenger comfort, and a variety of lights.<br> </dd>
+
+		<dt><b>Bikes</b></dt>
+		<dd style="font-size: 20px; color: brown;"> <br>Two-wheeled steerable machine that is pedaled by the rider's feet.<br>On a standard bicycle the wheels are mounted in-line in a metal frame,<br>With the front wheel held in a rotatable fork.<br>The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork. </dd>
+	</dl>
+	<hr>
+
+	<h2>Table for SE and HTML</h2>
+	<center>
+		<table border="2px solid box;" style="border-collapse: collapse;">
+		<tr>
+			<th class="head">Software Engineering</th>
+			<th class="head">HTML</th>
+		</tr>
+		<tr>
+			<td id="odd">Software process</td>
+			<td id="odd">Basic Tags</td>
+		</tr>
+		<tr>
+			<td id="even">SDLC</td>
+			<td id="even">para tag</td>
+		</tr>
+		<tr>
+			<td id="odd">software process Activites</td>
+			<td id="odd">Tables & forms</td>
+		</tr>
+	</table>
+	</center>
+	<hr>
+
+	<h2>Iframe implementations</h2>
+	<center>
+		<iframe src="second.html" style="width: 500px;height: 50px; text-align: center;"></iframe>
+	</center>
+
+</body>
+</html>

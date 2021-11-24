@@ -1,0 +1,44 @@
+body
+{
+	background-color: pink;
+}
+
+h2
+{
+	text-align: center;
+	color: red;
+}
+header{
+	border: 5px solid;
+}
+footer{
+	border: 3px solid black;
+	text-align: center;
+	color: green;
+}
+button
+{
+	background-color: pink;
+	color: red;
+}
+table{
+	text-align: center;
+}
+.head{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	font-family: verdana;
+	border: 2px solid black;
+}
+#odd{
+	font-family: fantasy;
+	color: #40113b;
+	font-size: 15px;
+}
+#even{
+	font-family: sans-serif;
+	color: White;
+	font-size: 15px;
+	font-weight: bold;
+}
