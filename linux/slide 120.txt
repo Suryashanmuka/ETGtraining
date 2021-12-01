@@ -1,0 +1,11 @@
+Try the commands done with using crontab
+
+
+
+Corntab
+ 
+
+33 17 11 * * * Is >file1
+
+
+00 00 9 * * * echo "good morning"

@@ -1,0 +1,15 @@
+1. Sort -u file1 &
+
+2. nohup sort -u file2 &
+
+3. it will run in background and they will not terminate
+
+
+4.sleep 5 second
+  echo 'hello'
+
+
+5. ps -1 /pid
+
+
+6. ps -1
